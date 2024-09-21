@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    font-family: "Inria Sans", sans-serif;
+    
+}
+
+body {
+    display: flex;
+    
+    
+    background: url('img10.jpg') ;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.logo img {
+    width:100px;
+    float: right;
+}
+.box
+{
+   
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border: 2px solid rgba(255,255 ,255,0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.box h1 {
+    font-size: 36px;
+    text-align: center ;
+    color:#fff;
+}
+
+.box .input-box {
+ width: 100%;
+ height: 4em;
+ 
+ margin: 30px 0;
+
+}
+
+.input-box input {
+    width: 100%;
+    height:100%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10 px;
+    
+    font-size: 16px;
+    color:#fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #000000;
+}
+
+
+
+.box .remember-forgot 
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 15px 0 15px;
+}
+
+.remember-forgot label{
+    color:#fff;
+}
+.remember-forgot label input 
+{
+    accent-color: #fff;
+    margin-right: 3px;
+
+}
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+.box .btn {
+    width: 100%;
+    height:  3em;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16 px;
+    color:#333;
+    font-weight: 600;
+}
+.box .register {
+    font-size: 14.5 px;
+    text-align: center;
+    margin: 20px o 15px;
+    color:#fff
+}
+.register p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+.register p a:hover {
+    text-decoration: underline;
+}
